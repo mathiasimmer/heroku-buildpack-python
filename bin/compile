@@ -270,3 +270,5 @@ if [[ ! "$SKIP_MOVE_BUILD" ]]; then
   bpwatch stop compile
 fi
 
+apt-get update
+apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
